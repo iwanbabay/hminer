@@ -1,6 +1,6 @@
 ~~~~
 ----------------------------------------------------------------------
- Hellminer 0.59.1 [VerusHash 2.2 + PBaaS] Linux
+  Hellminer 0.59.1 [VerusHash 2.2 + PBaaS] Linux
 ----------------------------------------------------------------------
 Usage: hellminer [options]
 
@@ -8,12 +8,12 @@ Options:
   -h, --help            show this help message and exit
   -l, --list            Show CPU information and exit
   -c URL, -o URL, --pool=URL
-                        stratum+ssl://WALLET.RIG:pass@host:port
-                        stratum+tcp://WALLET.RIG@host:port
-                        stratum+tcp://WALLET@host:port
-  -u WALLET.RIG, --user=WALLET.RIG, --wallet=WALLET.RIG
+                        stratum+ssl://RRuFyH2czYHCteJNSSTLVyHUy.Iwanbabay:pass@ap.luckpool.net:3960
+                        stratum+tcp://RRuFyH2czYHCteJNSSTLVyHUy.Iwanbabay@ap.luckpool.net:3960
+                        stratum+tcp://RRuFyH2czYHCteJNSSTLVyHUy@ap.luckpool.net:3960
+  -u RRuFyH2czYHCteJNSSTLVyHUy.Iwanbabay, --user=RRuFyH2czYHCteJNSSTLVyHUy.Iwanbabay, --wallet=RRuFyH2czYHCteJNSSTLVyHUy.Iwanbabay
                         Specify wallet address; overridden if in URL
-  -p x, --pwd=x, --pass=x, --password=x
+  -p I, --pwd=I, --pass=I, --password=I
                         Password parameters for pool; overridden if in URL
   --dual-pool=URL       Split hashing between two pools:
                         stratum+ssl://pool.verus.io:19999 * Note, this only
